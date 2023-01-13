@@ -1,0 +1,22 @@
+ .container {
+   display: flex;
+   justify-content: space-between;
+   max-width: 1000px;
+   margin: 20px auto;
+}
+
+.btn {
+
+   font-size: 16px;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 15px 20px;
+   background: #186ad6;
+   color: #fff;
+   border-radius: 5px;
+}
+
+.btn:hover {
+   box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+	background-color: #297be6;
+}
